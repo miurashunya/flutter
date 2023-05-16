@@ -1,0 +1,13 @@
+include: package:extra_pedantic/analysis_options.3.0.0.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+  exclude:
+    - lib/src/ffi/sqlite3.ffi.dart
+
+linter:
+  rules:
+    # We already enable `parameter_assignments`, so this doesn't provide much value.
+    prefer_final_parameters: false

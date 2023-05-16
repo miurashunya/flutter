@@ -1,0 +1,10 @@
+dart:
+# todo: Test on stable after 2.12 is released
+#  - stable
+  - dev
+stages:
+  - analyze:
+      - dartanalyzer
+      - dartfmt
+  - tests:
+      - test

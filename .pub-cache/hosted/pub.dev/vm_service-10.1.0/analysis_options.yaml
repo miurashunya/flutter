@@ -1,0 +1,9 @@
+include: package:lints/core.yaml
+
+linter:
+  rules:
+    - directives_ordering
+    - prefer_generic_function_type_aliases
+    - prefer_initializing_formals
+    - prefer_single_quotes
+    - unnecessary_this
